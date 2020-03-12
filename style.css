@@ -140,9 +140,21 @@ h1, h2, h3, h4, h5, h6 {
   margin: 35px 0 0 0;
 }
 
+
+
+
+
+
+
 /* ------------------------ */
 /* ----- SECOND BLOCK ----- */
 /* ------------------------ */
+
+
+
+
+
+
 .about {
   display: flex;
   flex-direction: column;
@@ -257,14 +269,28 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgba(23, 53, 193, 1)
 }
 
+
+
+
+
+
+
 /* ------------------------ */
 /* ------ THIRD BLOCK ----- */
 /* ------------------------ */
+
+
+
+
+
+
+
+
 .services {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .services_h2 {
@@ -287,9 +313,103 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+.mainfields {
+
+  display: flex;
+  flex-wrap: 5 wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px 5px 5px 5px;
+
+}
+.field {
+  width: 235px;
+  height: 235px;
+  margin: 15px 15px 15px 15px;
+  background: #F7EDE2;
+  /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease-in-out;*/
+  display: flex;
+
+}
+.table-price:hover {
+  /*box-shadow: 5px 5px 5px #fff;*/
+}
+
+
+.description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding:
+
+}
+.firstlettering {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 700;
+    color: rgba(31, 31, 30, 1);
+    font-size: 18px;
+    margin: 0 0 0 0;
+    display: flex;
+    text-transform: uppercase;
+}
+.secondlettering {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+}
+.firstblock_pick {
+  display: flex;
+}
+/*FIELDS*/
+/*
+.card {
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+}
+.card_img_top {
+  padding: 15px;
+  width: 100%;
+  height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.card_body {
+  background-color: rgba(255, 255, 255, 1);
+}
+.card_tittle {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 1);
+  font-size: 18px;
+  display: flex;
+}
+.card_text {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  display: flex;
+}
+
+
+/*
+
+
+
 /* ------------------------ */
 /* ------ FOURTH BLOCK ----- */
 /* ------------------------ */
+
+
+
+
 
 
 
@@ -298,6 +418,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .comment_h2 {
@@ -352,14 +473,24 @@ h1, h2, h3, h4, h5, h6 {
 
 
 
+
+
+
+
 /* ------------------------ */
 /* ------ FIFTH BLOCK ----- */
 /* ------------------------ */
 
 
+
+
+
+
+
 .programm {
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   align-items: center;
   padding-top: 70px;
 }
