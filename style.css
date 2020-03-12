@@ -317,14 +317,19 @@ h1, h2, h3, h4, h5, h6 {
 .mainfields {
 
   display: flex;
-  flex-wrap: 5 wrap;
+  flex-wrap: 4 wrap;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   margin: 5px 5px 5px 5px;
 
 }
-.field {
+
+
+/*MAN*/
+
+
+.fieldm {
   width: 235px;
   height: 235px;
   margin: 15px 15px 15px 15px;
@@ -332,30 +337,29 @@ h1, h2, h3, h4, h5, h6 {
   /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
   transition: 0.3s ease-in-out;*/
   display: flex;
+  justify-content: flex-end;
 
 }
-.table-price:hover {
+.block_pickm:hover {
   /*box-shadow: 5px 5px 5px #fff;*/
 }
 
 
-.description {
+.descriptionm {
   display: flex;
-  justify-content: center;
   flex-direction: column;
-  padding:
+  padding:30px 15px 0   0;
 
 }
-.firstlettering {
+.firstletteringm {
     font-family: 'Cera Pro', sans-serif;
     font-weight: 700;
     color: rgba(31, 31, 30, 1);
     font-size: 18px;
-    margin: 0 0 0 0;
     display: flex;
     text-transform: uppercase;
 }
-.secondlettering {
+.secondletteringm {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
   color: rgba(160, 160, 160, 1);
@@ -363,9 +367,59 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   display: flex;
 }
-.firstblock_pick {
+.block_pickm {
+  position: absolute;
+  padding: 55px 20px 20px 20px;
+  justify-content:
+}
+
+
+/*WOMAN*/
+
+.fieldw {
+  width: 235px;
+  height: 235px;
+  margin: 15px 15px 15px 15px;
+  background: #F7EDE2;
+  /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease-in-out;*/
+  display: flex;
+  justify-content: flex-end;
+
+}
+.table-pricew:hover {
+  /*box-shadow: 5px 5px 5px #fff;*/
+}
+
+
+.descriptionw {
+  display: flex;
+  flex-direction: column;
+  padding:30px 15px 0   0;
+
+}
+.firstletteringw {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 700;
+    color: rgba(31, 31, 30, 1);
+    font-size: 18px;
+    display: flex;
+    text-transform: uppercase;
+}
+.secondletteringw {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
   display: flex;
 }
+.firstblockw_pick {
+  position: absolute;
+  padding: 55px 20px 20px 20px;
+  justify-content:
+}
+
 /*FIELDS*/
 /*
 .card {
