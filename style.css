@@ -4,6 +4,7 @@ body {
   align-items: center;
   background: rgba(251, 245, 241, 1);
 }
+
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
@@ -11,20 +12,27 @@ h1, h2, h3, h4, h5, h6 {
 /* ------------------------ */
 /* ----- FIRST BLOCK ------ */
 /* ------------------------ */
+/* ----- HEADER ----- */
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 0 35px 0;
+}
 
 /* ----- HEADER ----- */
-
 .header {
   width: 100%;
   max-width: 1000px;
-  padding-top: 15px;
-  margin: 0 auto;
+  padding-top: 10px;
 }
+
 .header_inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .logo {
   font-family: 'Nunito', sans-serif;
   line-height: 1, 4;
@@ -41,22 +49,23 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
 }
+
 .nav_link {
   display: inline-block;
   vertical-align: top;
-  margin: 0 15px;
+  padding: 0 15px;
   color: rgba(0, 0, 0, 1);
   text-decoration: none;
   transition: color .1s linear;
 }
+
 .nav_link:hover {
   color: rgba(239, 105, 105, 1);
 }
 
 /* ----- INTRO ----- */
-
 .subscribe_block {
-  margin-top: 55px;
+  padding: 45px 0 0 0;
   width: 100%;
   max-width: 770px;
   display: flex;
@@ -66,7 +75,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- H1 ----- */
-
 .intro_h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
@@ -77,14 +85,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- SUBSCRIBE ----- */
-
 .subscribe {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
   font-size: 12px;
   display: flex;
-  margin: 40px 0 0 0;
+  padding: 30px 0;
 }
+
 .class_email {
   color: rgba(160, 160, 160, 1);
   transition: .5s;
@@ -96,6 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 25px;
   box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.05);
 }
+
 .class_button {
   transition: background .5s linear;
   width: 165px;
@@ -105,42 +114,41 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   background: rgba(77, 112, 246, 1);
   color: rgba(255, 255, 255, 1);
-  margin: 1px 0 0 -3px;
+  margin: 5px 0 0 -5px;
 }
+
 .class_button:hover {
   background-color: rgba(52, 82, 206, 1);
 }
 
 /* ----- H2 ----- */
-
 .intro_h2 {
   color: rgba(160, 160, 160, 1);
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
   font-size: 12px;
-  margin: 15px 0 0 0;
+  padding: 15px 0 0 0;
   display: flex;
 }
 
 /* ----- FIRST ILLUSTRATION ----- */
-
 .firstillustration {
   width: 100%;
   display: flex;
   justify-content: center;
-  margin: 35px 0 0 0;
+  margin: 45px 0 0 0;
 }
 
 /* ------------------------ */
 /* ----- SECOND BLOCK ----- */
 /* ------------------------ */
-
 /* ----- ABOUT ----- */
 .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 50px 0;
 }
 
 .about_h2 {
@@ -148,7 +156,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 500;
   color: rgba(239, 105, 105, 1);
   font-size: 14px;
-  margin: 50px 0 0 0;
   display: flex;
 }
 
@@ -158,18 +165,22 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 1);
   font-size: 38px;
   text-align: center;
-  margin: 15px 0 0 0;
+  padding: 15px 0 0 0;
   display: flex;
 }
 
 /* ----- EXAMPLE ----- */
 .example {
-  margin: 25px 0 0 0;
+  width: 100%;
+  max-width: 1200px;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 35px 0 100px 0;
 }
 
 .example_box {
-  padding: 0 50px 0 50px;
+  padding: 0 90px 0 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -181,7 +192,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 1);
   font-size: 18px;
   text-align: center;
-  margin: 5px 0 0 0;
+  padding: 5px 0 0 0;
   display: flex;
 }
 
@@ -191,29 +202,30 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(160, 160, 160, 1);
   font-size: 12px;
   text-align: center;
-  margin: 15px 0 0 0;
+  padding: 15px 0 0 0;
   display: flex;
 }
 
 /* ----- CHANGE ----- */
-
 .change {
+  width: 100%;
+  max-width: 970px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-top: 70px;
 }
+
 .change_box1 {
   display: flex;
-  padding-right: 10px;
 }
+
 .change_box2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding-left: 10px;
 }
+
 .change_h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
@@ -222,6 +234,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 1);
   display: flex;
 }
+
 .change_box_p {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -229,8 +242,9 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   text-align: left;
   display: flex;
-  padding: 10px 0 10px 0;
+  padding: 15px 0;
 }
+
 .class_2button {
   transition: background .5s linear;
   width: 165px;
@@ -242,6 +256,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(255, 255, 255, 1);
   margin: 1px 0 0 -3px;
 }
+
 .class_2button:hover {
   background-color: rgba(23, 53, 193, 1)
 }
@@ -249,24 +264,16 @@ h1, h2, h3, h4, h5, h6 {
 /* ------------------------ */
 /* ------ THIRD BLOCK ----- */
 /* ------------------------ */
-
-/* ----- SERVISES ----- */
-
-.services {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.services_h2 {
+/* ----- PRIMARY,SECONDARY TITTLE ----- */
+.secondary-red-tittle {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
   color: rgba(239, 105, 105, 1);
   font-size: 14px;
-  margin: 50px 0 0 0;
   display: flex;
 }
-.services_h1 {
+
+.primary-black-tittle {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 1);
@@ -276,27 +283,35 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+/* ----- SERVISES ----- */
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+
 /* ----- MAINFIELDS ----- */
 .mainfields {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   flex: 4;
-  padding: 20px 0 0 0;
+  padding: 35px 0 0 0;
   max-width: 1200px;
-
 }
 
 /* -----   PRIMARY, SECONDARY ----- */
-
 .primary-text-field {
-    font-family: 'Cera Pro', sans-serif;
-    font-weight: 700;
-    color: rgba(31, 31, 30, 1);
-    font-size: 18px;
-    display: flex;
-    text-transform: uppercase;
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 700;
+  color: rgba(31, 31, 30, 1);
+  font-size: 18px;
+  display: flex;
+  text-transform: uppercase;
 }
+
 .secondary-text-field {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -306,8 +321,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-/*MAN*/
-
+/* ----- MAN ----- */
 .fieldm {
   width: 235px;
   height: 235px;
@@ -316,23 +330,24 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: flex-end;
 }
+
 .man-illustration:hover {
   /*box-shadow: 5px 5px 5px #fff;*/
 }
+
 .descriptionm {
   display: flex;
   flex-direction: column;
-  padding:30px 15px 0   0;
-
+  padding: 30px 15px 0 0;
 }
+
 .man-illustration {
   position: absolute;
   padding: 55px 25px 0px 0px;
   justify-content:
 }
 
-/*WOMAN*/
-
+/* ----- WOMAN ----- */
 .fieldw {
   width: 235px;
   height: 235px;
@@ -343,14 +358,17 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: flex-start;
 }
+
 .woman-illustration:hover {
   /*box-shadow: 5px 5px 5px #fff;*/
 }
+
 .descriptionw {
   display: flex;
   flex-direction: column;
-  padding:30px 0 0 30px;
+  padding: 30px 0 0 30px;
 }
+
 .woman-illustration {
   position: absolute;
   padding: 30px 0 0 50px;
@@ -360,34 +378,15 @@ h1, h2, h3, h4, h5, h6 {
 /* ------------------------ */
 /* ------ FOURTH BLOCK ----- */
 /* ------------------------ */
-
-.comment {
+/* ----- COMMENTS ------ */
+.review {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
 
-.comment_h2 {
-  font-family: 'Cera Pro', sans-serif;
-  font-weight: 500;
-  color: rgba(239, 105, 105, 1);
-  font-size: 14px;
-  margin: 50px 0 0 0;
-  display: flex;
-}
-
-.comment_h1 {
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
-  color: rgba(0, 0, 0, 1);
-  font-size: 38px;
-  text-align: center;
-  margin: 15px 0 0 0;
-  display: flex;
-}
-
+/* ----- COMMENTARY ----- */
 .commentary {
   margin: 25px 0 0 0;
   display: flex;
@@ -400,7 +399,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.comment_h3 {
+.author-comment {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
   color: rgba(0, 0, 0, 1);
@@ -419,22 +418,10 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-
-
-
-
-
-
 /* ------------------------ */
 /* ------ FIFTH BLOCK ----- */
 /* ------------------------ */
-
-
-
-
-
-
-
+/* ----- PROGRAMM ----- */
 .programm {
   display: flex;
   justify-content: space-between;
@@ -443,6 +430,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 100px 0;
 }
 
+/* ----- PROGRAMM TEXT ----- */
 .programm_box1 {
   display: flex;
   flex-direction: column;
@@ -450,6 +438,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   padding: 0 50px;
 }
+
 .programm_h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
@@ -458,6 +447,7 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 1);
   display: flex;
 }
+
 .programm_box_p {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -468,9 +458,8 @@ h1, h2, h3, h4, h5, h6 {
   padding: 10px 0 10px 0;
 }
 
-
-
-.toggle_money{
+/* ----- PROGGRAMM BOX ----- */
+.toggle_money {
   display: flex;
   width: 565px;
   height: 235px;
@@ -479,7 +468,8 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
 }
 
-.toggle-boxes{
+/* ----- TOGGLE BOXES ----- */
+.toggle-boxes {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -488,36 +478,36 @@ h1, h2, h3, h4, h5, h6 {
   max-width: 365px;
 }
 
-/*------------------toggle-------------*/
-.toggle_box{
+/* ----- TOGGLE ----- */
+.toggle_box {
   display: flex;
   justify-content: center;
   align-items: center;
-
-padding: 15px;
+  padding: 15px;
 }
-/* Variables */
-/* Switch Container */
+
 .switch {
   position: relative;
   display: flex;
 }
-/* Hide the checkbox input (only needed for `:checked` property) */
+
 .switch-input {
   display: none;
 }
-/* Switch */
+
 .switch-label {
   display: block;
   width: 54px;
   height: 24px;
 }
+
 .switch-label:before,
 .switch-label:after {
   content: "";
   display: block;
   position: absolute;
 }
+
 .switch-label:before {
   width: 100%;
   height: 100%;
@@ -525,6 +515,7 @@ padding: 15px;
   border-radius: 50px;
   transition: background-color 0.25s ease;
 }
+
 .switch-label:after {
   top: 2px;
   left: 2px;
@@ -534,64 +525,18 @@ padding: 15px;
   background-color: rgba(255, 255, 255, 1);
   transition: left 0.25s ease;
 }
-/* When input is checked */
-.switch-input:checked + .switch-label {
-}
-.switch-input:checked + .switch-label:before {
+
+.switch-input:checked+.switch-label {}
+
+.switch-input:checked+.switch-label:before {
   background-color: rgba(90, 197, 114, 1);
 }
-.switch-input:checked + .switch-label:after {
+
+.switch-input:checked+.switch-label:after {
   left: 32px;
 }
 
-
-/*
-.checkbox{
-  visibility: hidden;
-}
-.checkbox_group{
-  position: relative;
-  width: 55px;
-  height: 25px;
-  background-color: rgba(239, 105, 105, 1);
-  border-radius: 50px;
-  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
-}
-.checkbox_group:after {
-  content: "";
-  position: absolute;
-}
-.checkbox_label {
-  display: block;
-  height: 20px;
-  width: 20px;
-  border-radius: 50%;
-  background: #fff;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  z-index: 1;
-  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
-}
-.checkbox_label:after{
-  content: "";
-  width: 10px;
-  height: 10px;
-  border-radius: 50px;
-  border-color: #000;
-  position: absolute;
-  top: 4px;
-  left: 4px;
-  z-index: 1;
-}
-.checkbox:checked + .checkbox_label{
-  left: 20px;
-}
-.checkbox:checked + .checkbox_label:after{
-  border-color: #27ae60;
-}
-*/
-/*-------------------------------------*/
+/* ----- BOTTON SIGNATURE ----- */
 .botton_signature {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 700;
@@ -601,18 +546,12 @@ padding: 15px;
   padding-left: 20px;
 }
 
-
-
-
-
-
+/* ----- MONEY BOX ----- */
 .money_box {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-
   width: 200px;
   height: 235px;
   margin: 15px 15px 15px 15px;
@@ -620,22 +559,22 @@ padding: 15px;
   /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
   transition: 0.3s ease-in-out;*/
   box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.03);
-
 }
-.block_pickm:hover {
+
+.money_counter:hover {
   /*box-shadow: 5px 5px 5px #fff;*/
 }
 
-
 .money_counter {
-    font-family: 'Cera Pro', sans-serif;
-    font-weight: 700;
-    color: rgba(31, 31, 30, 1);
-    font-size: 34px;
-    display: flex;
-    justify-content: center;
-    text-transform: uppercase;
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 700;
+  color: rgba(31, 31, 30, 1);
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
 }
+
 .money_date {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -645,6 +584,7 @@ padding: 15px;
   display: flex;
   justify-content: center;
 }
+
 .questions {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -654,9 +594,6 @@ padding: 15px;
   display: flex;
   justify-content: center;
 }
-
-
-
 
 .call_button {
   transition: background .5s linear;
@@ -669,43 +606,35 @@ padding: 15px;
   color: rgba(255, 255, 255, 1);
   text-decoration: uppercase;
 }
+
 .call_button:hover {
   background-color: rgba(74, 163, 89, 1);
 }
 
-
-
-
-
-
 /* ------------------------ */
 /* ------ FIFTH BLOCK ----- */
 /* ------------------------ */
-
-
-
-
-
-
+/* ----- ENDING ----- */
 .ending {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-
 }
+
+/* ----- THIRD ILLUSTRATION ----- */
 .thirdillustration {
   display: flex;
   justify-content: center;
-  padding-top: 80px:
-
 }
+
+/* ----- FOOTER ----- */
 .date {
   display: flex;
-justify-content: center;
-    font-family: 'Cera Pro', sans-serif;
-    font-weight: 500;
-    color: rgba(160, 160, 160, 1);
-    font-size: 14px;
-    text-align: center;
+  justify-content: center;
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 14px;
+  text-align: center;
 }
