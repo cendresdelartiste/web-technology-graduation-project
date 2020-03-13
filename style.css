@@ -2,9 +2,11 @@ body {
   background: rgba(251, 245, 241, 1);
 }
 
-flex-frap *,
-*::after,
-*::before {
+flex-frap {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
   box-sizing: border-box;
 }
 
@@ -317,11 +319,11 @@ h1, h2, h3, h4, h5, h6 {
 .mainfields {
 
   display: flex;
-  flex-wrap: 4 wrap;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  margin: 5px 5px 5px 5px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 4;
+  padding: 20px 0 0 0;
+  max-width: 1200px;
 
 }
 
@@ -369,7 +371,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .block_pickm {
   position: absolute;
-  padding: 55px 20px 20px 20px;
+  padding: 55px 25px 0px 0px;
   justify-content:
 }
 
@@ -384,18 +386,17 @@ h1, h2, h3, h4, h5, h6 {
   /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
   transition: 0.3s ease-in-out;*/
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 
 }
 .table-pricew:hover {
   /*box-shadow: 5px 5px 5px #fff;*/
 }
 
-
 .descriptionw {
   display: flex;
   flex-direction: column;
-  padding:30px 15px 0   0;
+  padding:30px 0 0 30px;
 
 }
 .firstletteringw {
@@ -414,46 +415,13 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   display: flex;
 }
-.firstblockw_pick {
+.firstblock_pickw {
   position: absolute;
-  padding: 55px 20px 20px 20px;
-  justify-content:
-}
-
-/*FIELDS*/
-/*
-.card {
-  border: 0;
-  border-radius: 0;
-  background-color: transparent;
-}
-.card_img_top {
-  padding: 15px;
-  width: 100%;
-  height: 250px;
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-.card_body {
-  background-color: rgba(255, 255, 255, 1);
-}
-.card_tittle {
-  font-family: 'Cera Pro', sans-serif;
-  font-weight: 500;
-  color: rgba(0, 0, 0, 1);
-  font-size: 18px;
-  display: flex;
-}
-.card_text {
-  font-family: 'Cera Pro', sans-serif;
-  font-weight: 500;
-  color: rgba(160, 160, 160, 1);
-  font-size: 12px;
-  display: flex;
+  padding: 30px 0 0 50px;
+  justify-content: flex-start;
 }
 
 
-/*
 
 
 
@@ -544,25 +512,17 @@ h1, h2, h3, h4, h5, h6 {
 .programm {
   display: flex;
   justify-content: space-between;
-  flex-direction: row;
   align-items: center;
-  padding-top: 70px;
+  max-width: 1200px;
+  padding-top: 50px;
 }
-
-
 
 .programm_box1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: flex-start;
-  padding-left: 10px;
+  align-items: center;
 }
-.programm_box2 {
-  display: flex;
-  padding-right: 10px;
-}
-
 .programm_h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
@@ -571,7 +531,6 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 1);
   display: flex;
 }
-
 .programm_box_p {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -580,4 +539,178 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   display: flex;
   padding: 10px 0 10px 0;
+}
+
+
+
+.toggle_money{
+  display: flex;
+  width: 565px;
+  height: 235px;
+  background: rgba(254, 253, 252, 1);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.first_toggle{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex: 2;
+  padding: 20px 0 0 0;
+  max-width: 365px;
+
+}
+
+/*------------------toggle-------------*/
+.toggle_box{
+  display: flex;
+  align-items: center;
+  padding: 30px 30px;
+
+}
+.firsttogglebox {
+  display: flex;
+  transform: translate(-50%;-50%);
+}
+.toggle_btn {
+  display: flex;
+  width: 45px;
+  height: 24px;
+  background: rgba(239, 105, 105, 1);
+  border-radius: 30px;
+  padding: 2px;
+}
+.toggle_btn > .inner_circle {
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 1);
+  border-radius: 50px;
+}
+.toggle_btn.active {
+  background: rgba(90, 197, 114, 1);
+}
+.toggle_btn.active > .inner_circle {
+  margin-left: 20px;
+}
+
+
+/*-------------------------------------*/
+.botton_signature {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 700;
+  color: rgba(31, 31, 30, 1);
+  font-size: 12px;
+  display: flex;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+.money_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+  width: 200px;
+  height: 235px;
+  margin: 15px 15px 15px 15px;
+  background: rgba(255, 255, 255, 1);
+  /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease-in-out;*/
+  box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.03);
+
+}
+.block_pickm:hover {
+  /*box-shadow: 5px 5px 5px #fff;*/
+}
+
+
+.money_counter {
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 700;
+    color: rgba(31, 31, 30, 1);
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.money_date {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+.questions {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+.call_button {
+  transition: background .5s linear;
+  width: 165px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgba(90, 197, 114, 1);
+  color: rgba(255, 255, 255, 1);
+  text-decoration: uppercase;
+}
+.call_button:hover {
+  background-color: rgba(74, 163, 89, 1);
+}
+
+
+
+
+
+
+/* ------------------------ */
+/* ------ FIFTH BLOCK ----- */
+/* ------------------------ */
+
+
+
+
+
+
+.ending {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+
+}
+.thirdillustration {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px:
+
+}
+.date {
+  display: flex;
+justify-content: center;
+    font-family: 'Cera Pro', sans-serif;
+    font-weight: 500;
+    color: rgba(160, 160, 160, 1);
+    font-size: 14px;
+    text-align: center;
 }
