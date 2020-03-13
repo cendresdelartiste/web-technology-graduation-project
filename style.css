@@ -1,39 +1,30 @@
 body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: rgba(251, 245, 241, 1);
 }
-
-flex-frap {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
 h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
-.commonblock {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
+/* ------------------------ */
+/* ----- FIRST BLOCK ------ */
+/* ------------------------ */
 
 /* ----- HEADER ----- */
+
 .header {
   width: 100%;
   max-width: 1000px;
   padding-top: 15px;
   margin: 0 auto;
 }
-
 .header_inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-
 .logo {
   font-family: 'Nunito', sans-serif;
   line-height: 1, 4;
@@ -50,7 +41,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   justify-content: space-between;
 }
-
 .nav_link {
   display: inline-block;
   vertical-align: top;
@@ -59,12 +49,12 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   transition: color .1s linear;
 }
-
 .nav_link:hover {
   color: rgba(239, 105, 105, 1);
 }
 
 /* ----- INTRO ----- */
+
 .subscribe_block {
   margin-top: 55px;
   width: 100%;
@@ -76,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- H1 ----- */
+
 .intro_h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
@@ -86,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- SUBSCRIBE ----- */
+
 .subscribe {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -93,7 +85,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   margin: 40px 0 0 0;
 }
-
 .class_email {
   color: rgba(160, 160, 160, 1);
   transition: .5s;
@@ -104,9 +95,7 @@ h1, h2, h3, h4, h5, h6 {
   outline: none;
   padding: 0 25px;
   box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.05);
-  /*border-radius: 25px 0 0 25px;*/
 }
-
 .class_button {
   transition: background .5s linear;
   width: 165px;
@@ -117,14 +106,13 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(77, 112, 246, 1);
   color: rgba(255, 255, 255, 1);
   margin: 1px 0 0 -3px;
-  /* ПОСМОТРЕТЬ ОТСТУПЫ */
 }
-
 .class_button:hover {
   background-color: rgba(52, 82, 206, 1);
 }
 
 /* ----- H2 ----- */
+
 .intro_h2 {
   color: rgba(160, 160, 160, 1);
   font-family: 'Cera Pro', sans-serif;
@@ -135,6 +123,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* ----- FIRST ILLUSTRATION ----- */
+
 .firstillustration {
   width: 100%;
   display: flex;
@@ -142,21 +131,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 35px 0 0 0;
 }
 
-
-
-
-
-
-
 /* ------------------------ */
 /* ----- SECOND BLOCK ----- */
 /* ------------------------ */
 
-
-
-
-
-
+/* ----- ABOUT ----- */
 .about {
   display: flex;
   flex-direction: column;
@@ -183,6 +162,7 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+/* ----- EXAMPLE ----- */
 .example {
   margin: 25px 0 0 0;
   display: flex;
@@ -215,18 +195,18 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
+/* ----- CHANGE ----- */
+
 .change {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 70px;
 }
-
 .change_box1 {
   display: flex;
   padding-right: 10px;
 }
-
 .change_box2 {
   display: flex;
   flex-direction: column;
@@ -234,7 +214,6 @@ h1, h2, h3, h4, h5, h6 {
   align-items: flex-start;
   padding-left: 10px;
 }
-
 .change_h1 {
   font-family: 'Nunito', sans-serif;
   font-size: 38px;
@@ -243,7 +222,6 @@ h1, h2, h3, h4, h5, h6 {
   color: rgba(0, 0, 0, 1);
   display: flex;
 }
-
 .change_box_p {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -253,7 +231,6 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   padding: 10px 0 10px 0;
 }
-
 .class_2button {
   transition: background .5s linear;
   width: 165px;
@@ -264,29 +241,16 @@ h1, h2, h3, h4, h5, h6 {
   background: rgba(52, 82, 206, 1);
   color: rgba(255, 255, 255, 1);
   margin: 1px 0 0 -3px;
-  /* ПОСМОТРЕТЬ ОТСТУПЫ */
 }
-
 .class_2button:hover {
   background-color: rgba(23, 53, 193, 1)
 }
-
-
-
-
-
-
 
 /* ------------------------ */
 /* ------ THIRD BLOCK ----- */
 /* ------------------------ */
 
-
-
-
-
-
-
+/* ----- SERVISES ----- */
 
 .services {
     display: flex;
@@ -294,7 +258,6 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
 }
-
 .services_h2 {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
@@ -303,7 +266,6 @@ h1, h2, h3, h4, h5, h6 {
   margin: 50px 0 0 0;
   display: flex;
 }
-
 .services_h1 {
   font-family: 'Nunito', sans-serif;
   font-weight: bold;
@@ -314,10 +276,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
 }
 
-
-
+/* ----- MAINFIELDS ----- */
 .mainfields {
-
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -327,33 +287,9 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
+/* -----   PRIMARY, SECONDARY ----- */
 
-/*MAN*/
-
-
-.fieldm {
-  width: 235px;
-  height: 235px;
-  margin: 15px 15px 15px 15px;
-  background: #F7EDE2;
-  /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
-  transition: 0.3s ease-in-out;*/
-  display: flex;
-  justify-content: flex-end;
-
-}
-.block_pickm:hover {
-  /*box-shadow: 5px 5px 5px #fff;*/
-}
-
-
-.descriptionm {
-  display: flex;
-  flex-direction: column;
-  padding:30px 15px 0   0;
-
-}
-.firstletteringm {
+.primary-text-field {
     font-family: 'Cera Pro', sans-serif;
     font-weight: 700;
     color: rgba(31, 31, 30, 1);
@@ -361,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
     display: flex;
     text-transform: uppercase;
 }
-.secondletteringm {
+.secondary-text-field {
   font-family: 'Cera Pro', sans-serif;
   font-weight: 500;
   color: rgba(160, 160, 160, 1);
@@ -369,12 +305,31 @@ h1, h2, h3, h4, h5, h6 {
   text-align: left;
   display: flex;
 }
-.block_pickm {
+
+/*MAN*/
+
+.fieldm {
+  width: 235px;
+  height: 235px;
+  margin: 15px 15px 15px 15px;
+  background: #F7EDE2;
+  display: flex;
+  justify-content: flex-end;
+}
+.man-illustration:hover {
+  /*box-shadow: 5px 5px 5px #fff;*/
+}
+.descriptionm {
+  display: flex;
+  flex-direction: column;
+  padding:30px 15px 0   0;
+
+}
+.man-illustration {
   position: absolute;
   padding: 55px 25px 0px 0px;
   justify-content:
 }
-
 
 /*WOMAN*/
 
@@ -387,53 +342,24 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s ease-in-out;*/
   display: flex;
   justify-content: flex-start;
-
 }
-.table-pricew:hover {
+.woman-illustration:hover {
   /*box-shadow: 5px 5px 5px #fff;*/
 }
-
 .descriptionw {
   display: flex;
   flex-direction: column;
   padding:30px 0 0 30px;
-
 }
-.firstletteringw {
-    font-family: 'Cera Pro', sans-serif;
-    font-weight: 700;
-    color: rgba(31, 31, 30, 1);
-    font-size: 18px;
-    display: flex;
-    text-transform: uppercase;
-}
-.secondletteringw {
-  font-family: 'Cera Pro', sans-serif;
-  font-weight: 500;
-  color: rgba(160, 160, 160, 1);
-  font-size: 12px;
-  text-align: left;
-  display: flex;
-}
-.firstblock_pickw {
+.woman-illustration {
   position: absolute;
   padding: 30px 0 0 50px;
   justify-content: flex-start;
 }
 
-
-
-
-
 /* ------------------------ */
 /* ------ FOURTH BLOCK ----- */
 /* ------------------------ */
-
-
-
-
-
-
 
 .comment {
   display: flex;
@@ -514,7 +440,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;
-  padding-top: 50px;
+  padding: 100px 0;
 }
 
 .programm_box1 {
@@ -522,6 +448,7 @@ h1, h2, h3, h4, h5, h6 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 0 50px;
 }
 .programm_h1 {
   font-family: 'Nunito', sans-serif;
@@ -549,53 +476,121 @@ h1, h2, h3, h4, h5, h6 {
   height: 235px;
   background: rgba(254, 253, 252, 1);
   display: flex;
-  justify-content: space-around;
   align-items: center;
 }
 
-.first_toggle{
+.toggle-boxes{
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+  align-items: center;
   flex-wrap: wrap;
   flex: 2;
-  padding: 20px 0 0 0;
   max-width: 365px;
-
 }
 
 /*------------------toggle-------------*/
 .toggle_box{
   display: flex;
+  justify-content: center;
   align-items: center;
-  padding: 30px 30px;
 
+padding: 15px;
 }
-.firsttogglebox {
+/* Variables */
+/* Switch Container */
+.switch {
+  position: relative;
   display: flex;
-  transform: translate(-50%;-50%);
 }
-.toggle_btn {
-  display: flex;
-  width: 45px;
+/* Hide the checkbox input (only needed for `:checked` property) */
+.switch-input {
+  display: none;
+}
+/* Switch */
+.switch-label {
+  display: block;
+  width: 54px;
   height: 24px;
-  background: rgba(239, 105, 105, 1);
-  border-radius: 30px;
-  padding: 2px;
 }
-.toggle_btn > .inner_circle {
+.switch-label:before,
+.switch-label:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+.switch-label:before {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(239, 105, 105, 1);
+  border-radius: 50px;
+  transition: background-color 0.25s ease;
+}
+.switch-label:after {
+  top: 2px;
+  left: 2px;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  transition: left 0.25s ease;
+}
+/* When input is checked */
+.switch-input:checked + .switch-label {
+}
+.switch-input:checked + .switch-label:before {
+  background-color: rgba(90, 197, 114, 1);
+}
+.switch-input:checked + .switch-label:after {
+  left: 32px;
+}
+
+
+/*
+.checkbox{
+  visibility: hidden;
+}
+.checkbox_group{
+  position: relative;
+  width: 55px;
+  height: 25px;
+  background-color: rgba(239, 105, 105, 1);
   border-radius: 50px;
+  box-shadow: inset 0px 1px 1px rgba(0,0,0,0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
 }
-.toggle_btn.active {
-  background: rgba(90, 197, 114, 1);
+.checkbox_group:after {
+  content: "";
+  position: absolute;
 }
-.toggle_btn.active > .inner_circle {
-  margin-left: 20px;
+.checkbox_label {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background: #fff;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
-
-
+.checkbox_label:after{
+  content: "";
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
+  border-color: #000;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  z-index: 1;
+}
+.checkbox:checked + .checkbox_label{
+  left: 20px;
+}
+.checkbox:checked + .checkbox_label:after{
+  border-color: #27ae60;
+}
+*/
 /*-------------------------------------*/
 .botton_signature {
   font-family: 'Cera Pro', sans-serif;
