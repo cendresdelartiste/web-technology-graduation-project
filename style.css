@@ -481,14 +481,33 @@ h1, h2, h3, h4, h5, h6 {
 /* ----- TOGGLE ----- */
 .toggle_box {
   display: flex;
+  align-items: center;
+  padding: 15px  ;
+  margin-left: 15px;
+}
+
+.toggle_box:nth-child(even) {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 15px;
+  margin-left: 15px;
 }
 
 .switch {
   position: relative;
   display: flex;
+}
+
+.toggle_box:nth-child(4) {
+  margin-left: -5px;
+}
+
+.toggle_box:nth-child(6) {
+  margin-left: -5px;
+}
+
+.toggle_box:nth-child(8) {
+  margin-left: 5px;
 }
 
 .switch-input {
