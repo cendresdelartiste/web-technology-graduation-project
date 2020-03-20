@@ -1,0 +1,245 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(251, 245, 241, 1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+.programm {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  padding: 100px 0;
+}
+
+/* ----- PROGRAMM TEXT ----- */
+.programm_box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 50px;
+}
+
+.programm_h1 {
+  font-family: 'Nunito', sans-serif;
+  font-size: 38px;
+  font-weight: bold;
+  text-align: left;
+  color: rgba(0, 0, 0, 1);
+  display: flex;
+}
+
+.programm_box_p {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  padding: 10px 0 10px 0;
+}
+
+/* ----- PROGGRAMM BOX ----- */
+.toggle_money {
+  display: flex;
+  width: 565px;
+  height: 235px;
+  background: rgba(254, 253, 252, 1);
+  display: flex;
+  align-items: center;
+}
+
+/* ----- TOGGLE BOXES ----- */
+.toggle-boxes {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex: 2;
+  max-width: 365px;
+}
+
+/* ----- TOGGLE ----- */
+.toggle_box {
+  display: flex;
+  align-items: center;
+  padding: 15px  ;
+  margin-left: 15px;
+}
+
+.toggle_box:nth-child(even) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 15px;
+}
+
+.switch {
+  position: relative;
+  display: flex;
+}
+
+.toggle_box:nth-child(4) {
+  margin-left: -5px;
+}
+
+.toggle_box:nth-child(6) {
+  margin-left: -5px;
+}
+
+.toggle_box:nth-child(8) {
+  margin-left: 5px;
+}
+
+.switch-input {
+  display: none;
+}
+
+.switch-label {
+  display: block;
+  width: 54px;
+  height: 24px;
+}
+
+.switch-label:before,
+.switch-label:after {
+  content: "";
+  display: block;
+  position: absolute;
+}
+
+.switch-label:before {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(239, 105, 105, 1);
+  border-radius: 50px;
+  transition: background-color 0.25s ease;
+}
+
+.switch-label:after {
+  top: 2px;
+  left: 2px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 1);
+  transition: left 0.25s ease;
+}
+
+.switch-input:checked+.switch-label {}
+
+.switch-input:checked+.switch-label:before {
+  background-color: rgba(90, 197, 114, 1);
+}
+
+.switch-input:checked+.switch-label:after {
+  left: 32px;
+}
+
+/* ----- BOTTON SIGNATURE ----- */
+.botton_signature {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 700;
+  color: rgba(31, 31, 30, 1);
+  font-size: 12px;
+  display: flex;
+  padding-left: 20px;
+}
+
+/* ----- MONEY BOX ----- */
+.money_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 235px;
+  margin: 15px 15px 15px 15px;
+  background: rgba(255, 255, 255, 1);
+  /*box-shadow: -5px -5px 15px rgba(0, 0, 0, 0.07);
+  transition: 0.3s ease-in-out;*/
+  box-shadow: -5px 0px 15px rgba(0, 0, 0, 0.03);
+}
+
+.money_counter:hover {
+  /*box-shadow: 5px 5px 5px #fff;*/
+}
+
+.money_counter {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 700;
+  color: rgba(31, 31, 30, 1);
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.money_date {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.questions {
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 12px;
+  text-align: left;
+  display: flex;
+  justify-content: center;
+}
+
+.call_button {
+  transition: background .5s linear;
+  width: 165px;
+  height: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background: rgba(90, 197, 114, 1);
+  color: rgba(255, 255, 255, 1);
+  text-decoration: uppercase;
+}
+
+.call_button:hover {
+  background-color: rgba(74, 163, 89, 1);
+}
+
+/* ------------------------ */
+/* ------ FIFTH BLOCK ----- */
+/* ------------------------ */
+/* ----- ENDING ----- */
+.ending {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ----- THIRD ILLUSTRATION ----- */
+.thirdillustration {
+  display: flex;
+  justify-content: center;
+}
+
+/* ----- FOOTER ----- */
+.date {
+  display: flex;
+  justify-content: center;
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 500;
+  color: rgba(160, 160, 160, 1);
+  font-size: 14px;
+  text-align: center;
+}
